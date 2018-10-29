@@ -139,7 +139,6 @@ header nav ul a {
 
 
 
-
 /* ---------------- main ------------------*/
 main {
   margin-top: -170px;
@@ -312,25 +311,633 @@ main {
   margin: 0;
   padding: 0;
 }
+
 .koyama-product-content h2 span {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   border-top: 1.2px solid #000;
   border-bottom: 1.2px solid #000;
   line-height: 30px;
   display: inline-block;
 }
 
-.koyama-product-content h2 span::before {
-  top: 0;
+.koyama-product-txt {
+  margin-top: 45px;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  font-family: "Yu Mincho", "游明朝", YuMincho, "游明朝体", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "メイリオ", sans-serif;
+}
+
+.koyama-product-txtx {
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+.koyama-product-image {
+  background: url(img/item_photo01.jpg) center center no-repeat;
+  background-size: cover;
+  height: auto;
   width: 100%;
+  padding-top: 40%;
+  margin-top: 25px;
+}
+
+.koyama-product h3 {
+  text-align: center;
+  margin-top: 44px;
+}
+
+.koyama-product h3::after {
+  width: 45px;
   height: 1px;
-  position: absolute;
-  left: 0;
+  background: #000;
   content: '';
+  position: absolute;
+  left: 47%;
+  display: block;
+}
+
+.koyama-product h3 span {
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Yu Mincho", "游明朝", YuMincho, "游明朝体", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "メイリオ", sans-serif;
+  font-weight: normal;
+}
+
+.koyama-product-yumi {
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+
+.yumi-image {
+  background: url(img/item_yumi.jpg) no-repeat;
+  background-position: 80% 50%;
+  background-size: cover;
+  height: auto;
+  padding-top: 40%;
+}
+
+.yumi-content {
+  width: 88%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.yumi-content-box h4 {
+  font-weight: normal;
+}
+
+.yumi-content-box h4 span{
+  font-size: 2rem;
+  font-family: "Yu Mincho", "游明朝", YuMincho, "游明朝体", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "メイリオ", sans-serif;
+}
+
+.yumi-content-box p {
+  color: #999;
+  font-size: 0.7rem;
+}
+
+.yumi-content-box a {
+  position: absolute;
+  right: 3%;
+  top: 10px;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.yumi-content-link span::before {
+  position: absolute;
+  top: 5px;
+  right: -15px;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 11px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(45deg);
+}
+
+.yumi-content-link span::after {
+  position: absolute;
+  top: 5px;
+  right: -25px;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 11px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(45deg);
+}
+
+.koyama-product-ya {
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+
+.ya-image {
+  background: url(img/item_ya.jpg) no-repeat;
+  background-position: 80% 50%;
+  background-size: cover;
+  height: auto;
+  padding-top: 40%;
+}
+
+.ya-content {
+  width: 88%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ya-content-box h4 {
+  font-weight: normal;
+}
+
+.ya-content-box h4 span{
+  font-size: 2rem;
+  font-family: "Yu Mincho", "游明朝", YuMincho, "游明朝体", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "メイリオ", sans-serif;
+}
+
+.ya-content-box p {
+  color: #999;
+  font-size: 0.7rem;
+}
+
+.ya-content-box a {
+  position: absolute;
+  right: 3%;
+  top: 10px;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.ya-content-link span::before {
+  position: absolute;
+  top: 5px;
+  right: -15px;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 11px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(45deg);
+}
+
+.ya-content-link span::after {
+  position: absolute;
+  top: 5px;
+  right: -25px;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 11px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(45deg);
+}
+
+.koyama-product-kake {
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+
+.kake-image {
+  background: url(img/item_kake.jpg) no-repeat;
+  background-position: 80% 50%;
+  background-size: cover;
+  height: auto;
+  padding-top: 40%;
+}
+
+.kake-content {
+  width: 88%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.kake-content-box h4 {
+  font-weight: normal;
+}
+
+.kake-content-box h4 span{
+  font-size: 2rem;
+  font-family: "Yu Mincho", "游明朝", YuMincho, "游明朝体", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "メイリオ", sans-serif;
+}
+
+.kake-content-box p {
+  color: #999;
+  font-size: 0.7rem;
+}
+
+.kake-content-box a {
+  position: absolute;
+  right: 3%;
+  top: 10px;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.kake-content-link span::before {
+  position: absolute;
+  top: 5px;
+  right: -15px;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 11px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(45deg);
+}
+
+.kake-content-link span::after {
+  position: absolute;
+  top: 5px;
+  right: -25px;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 11px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(45deg);
+}
+
+.koyama-introduce-btn {
+  height: 45px;
+  width: 76%;
+  margin: 45px auto;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  line-height: 45px;
+}
+
+.koyama-introduce-btn span::before {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  content: '';
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+}
+
+.koyama-introduce-btn span::after {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  content: '';
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+}
+
+.koyama-introduce-image {
+
+}
+
+.koyama-introduce-image01 {
+  height: 150px;
+  width: 100%;
+  background-image: url(img/attachment_photo01.jpg);
+  background-size: 160% auto;
+  background-position: 30% 90%;
+}
+
+.koyama-introduce-image02 {
+  height: 150px;
+  width: 100%;
+  background-image: url(img/attachment_photo02.jpg);
+  background-size: 160% auto;
+  background-position: 30% 90%;
+}
+
+.koyama-shops {
+  padding-top: 65px;
+}
+
+.koyama-shop-content {
+  width: 88%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.koyama-shop-content h2 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.koyama-shop-content h2 span {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  font-size: 0.7rem;
+  padding: 10px 0;
+}
+
+.koyama-shop-txt {
+  padding-top: 35px;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-family: "Yu Mincho", "游明朝", YuMincho, "游明朝体", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "メイリオ", sans-serif;
+}
+
+.koyama-shop-txtx {
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+.koyama-shop-txts {
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+.koyama-shop {
+  padding-left: 0;
+}
+
+.koyama-shop li {
+  list-style-type: none;
+  width: 100%;
+}
+
+.koyama-shop-image {
+  background: url(img/shop_pic01.jpg) center center no-repeat;
+  height: auto;
+  padding-top: 60%;
+  background-size: cover;
+}
+
+.koyama-shop-detail {
+  padding: 10px 6%;
+}
+
+.koyama-shop-detail-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.koyama-shop-detail-head h3 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: "Yu Mincho", "游明朝", YuMincho, "游明朝体", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "メイリオ", sans-serif;
+}
+
+.koyama-shop-detail-head a {
+  color: #000;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-right: 50px;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.koyama-shop-detail-head span::before {
+  position: absolute;
+  right: 30px;
+  margin-top: -15px;
+  content: '';
+  width: 10px;
+  height: 11px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(45deg);
+}
+
+.koyama-shop-detail-head span::after {
+  position: absolute;
+  right: 20px;
+  margin-top: -15px;
+  content: '';
+  width: 10px;
+  height: 11px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(45deg);
+}
+
+.koyama-shop-detail p {
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+}
+
+.koyama-shop-detail a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.koyama-shop-detail a i {
+  padding-left: 5px;
+  padding-bottom: 50px;
+}
+
+.koyama-shop-image01 {
+  background: url(img/shop_pic02.jpg) center center no-repeat;
+  height: auto;
+  padding-top: 60%;
+  background-size: cover;
+}
+
+.koyama-shop-image02 {
+  background: url(img/shop_pic03.jpg) center center no-repeat;
+  height: auto;
+  padding-top: 60%;
+  background-size: cover;
+}
+
+.koyama-shop-image03 {
+  height: 150px;
+  width: 100%;
+  background-image: url(img/attachment_photo03.jpg);
+  background-size: 160% auto;
+  background-position: 30% 90%;
+}
+
+.koyama-shop-image04 {
+  height: 150px;
+  width: 100%;
+  background-image: url(img/attachment_photo04.jpg);
+  background-size: 160% auto;
+  background-position: 30% 90%;
+}
+
+.koyama-contact {
+  width: 84%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 65px 0 55px;
+}
+
+.koyama-contact h2 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.koyama-contact h2 span {
+  font-size: 0.7rem;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+}
+
+.koyama-contact .koyama-contact-tx {
+  padding-top: 20px;
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+.koyama-contact .koyama-contact-tel-txt {
+  padding-top: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.koyama-contact .koyama-contact-tel-txt::before {
+  width: 30px;
+  height: 1px;
+  background: #000;
+  content: '';
+  position: absolute;
+  top: 57%;
+  left: 140px;
+}
+
+.koyama-contact .koyama-contact-tel-txt::after {
+  width: 30px;
+  height: 1px;
+  background: #000;
+  content: '';
+  position: absolute;
+  top: 57%;
+  right: 140px;
+}
+
+.koyama-contact-tel-txtx {
+  padding: 0;
+  margin-top: 0;
+}
+
+.koyama-contact-tel span {
+  padding-left: 20px;
+  letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+  font-family: "Yu Mincho", "游明朝", YuMincho, "游明朝体", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "メイリオ", sans-serif;
+}
+
+.koyama-contact-tel .koyama-contact-tel-txts {
+  font-size: 0.7rem;
+  line-height: 2;
+  padding-bottom: 30px;
+}
+
+.koyama-contact ul li {
+  list-style-type: none;
+  font-size: 0.9rem;
+}
+
+.koyama-sns {
+  text-align: center;
+  position: relative;
+}
+
+.koyama-sns p {
+  margin-top: 70px;
+  font-size: 0.9rem;
+}
+
+.koyama-sns-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.koyama-sns-btn a {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+
+.koyama-sns-btn01 {
+  background-image: url(img/icon_facebook.svg);
+}
+
+.koyama-sns-btn02 {
+  background-image: url(img/icon_twitter.svg);
+}
+
+.pagetop {
+  position: absolute;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  /* bottom: 60px; */
+  color: #000;
+  text-decoration: none;
+}
+
+.pagetop  span::before {
+  position: absolute;
+  top: -60px;
+  right: -200px;
+  content: '';
+  width: 28px;
+  height: 28px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(-45deg);
+}
+
+.pagetop  span::after {
+  position: absolute;
+  top: -70px;
+  right: -200px;
+  content: '';
+  width: 28px;
+  height: 28px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  transform: rotate(-45deg);
 }
 
 
 
-
-
 /* ---------------- footer ------------------*/
+
+footer {
+  padding-top: 30px;
+  margin-top: 30px;
+  background-color: #000;
+  text-align: center;
+  height: 100%;
+  color: #fff;
+}
+
+footer p {
+  font-size: 0.6rem;
+  line-height: 2;
+}
+.footer-logo-txt {
+  padding-bottom: 15px;
+}
