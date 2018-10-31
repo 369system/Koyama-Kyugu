@@ -123,6 +123,11 @@ header nav ul a {
   height: auto;
 }
 
+@media screen and (max-width:768px) {
+  .header-container-flex {
+    display: none;
+  }
+}
 
 @media screen and (min-width:768px) {
   #nav-toggle {
@@ -133,7 +138,52 @@ header nav ul a {
     display: none;
   }
 
+  .header-container-flex {
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .header-container-flex P {
+    position: relative;
+    top: -75px;
+    left: 25px;
+    font-size: 0.9rem;
+    writing-mode: vertical-rl;
+    letter-spacing: 0.4rem;
+    font-family: "Yu Mincho", "游明朝", YuMincho, "游明朝体", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "メイリオ", sans-serif;
+  }
+
+  .header-container-flex dl {
+    position: relative;
+  }
+
+  .header-container-flex dt {
+    position: absolute;
+    left: -130px;
+    top: -120px;
+    font-size: 0.7rem;
+  }
+
+  .header-container-flex dd {
+    position: absolute;
+    top: -125px;
+    left: -70px;
+  }
+
+  .header-container-flex dd a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+  }
+
+  .header-container-flex dl .header-container-online {
+    position: relative;
+    top: -70px;
+    right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 0.7rem;
+  }
 
 
 }
@@ -817,6 +867,7 @@ main {
   margin-bottom: 0;
   font-size: 1.2rem;
   position: relative;
+  display: inline;
 }
 
 .koyama-contact .koyama-contact-tel-txt::before {
@@ -826,7 +877,7 @@ main {
   content: '';
   position: absolute;
   top: 57%;
-  left: 140px;
+  left: -70%;
 }
 
 .koyama-contact .koyama-contact-tel-txt::after {
@@ -836,7 +887,7 @@ main {
   content: '';
   position: absolute;
   top: 57%;
-  right: 140px;
+  right: -70%;
 }
 
 .koyama-contact-tel-txtx {
