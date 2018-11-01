@@ -63,16 +63,28 @@ body {
 }
 
 nav {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 500;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+nav .globalMenuMobile_overlay {
   position: absolute;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-image: url(img/globalMenuMobile_bg.png);
-  background-position: top center;
-  display: none;
-  overflow-y: scroll;
+  background: #fff;
+  opacity: 1;
+}
+
+header {
+  height: 120px;
 }
 
 header nav img {
@@ -111,10 +123,21 @@ header nav ul a {
   margin-top: 20px;
 }
 
+.header-container div {
+  position: relative;
+}
 
-.header-container h1 {
+
+/* .header-container h1 {
   width: 158px;
   margin: 0 auto;
+} */
+.header-container h1 {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -90px;
+  z-index: 100;
 }
 
 .header-container h1 img {
@@ -197,16 +220,18 @@ header nav ul a {
 
 /* ---------------- main ------------------*/
 main {
-  margin-top: -170px;
+  /* margin-top: -170px; */
+  margin-top: -30px;
 }
 
 .swiper-container {
   margin: 0 auto;
-  padding: 0;
+  /* padding: 0; */
   overflow: hidden;
   list-style: none;
   z-index: 1;
-  position: relative;
+  padding: 0;
+  /* position: relative; */
   /* width: 100%;
   height: 100%; */
 }
