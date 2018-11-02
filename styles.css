@@ -14,6 +14,25 @@ body {
 
 /* ---------------- header ------------------*/
 
+.top-hero-content {
+  position: relative;
+}
+
+.top-hero-lead {
+ position: absolute;
+  left: 4%;
+  top: -60px;
+  font-size: 1rem;
+  letter-spacing: .3em;
+  line-height: 2.8;
+  writing-mode: vertical-rl;
+  color: #000;
+  z-index: 100;
+  font-family: "Yu Mincho", "游明朝", YuMincho, "游明朝体", "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "メイリオ", sans-serif;
+  transform: scale3d(1, .9, 1);
+  transform-origin: left top;
+}
+
 #nav-toggle {
   display: block;
   width: 30px;
